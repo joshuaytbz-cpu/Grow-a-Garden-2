@@ -1,15 +1,15 @@
 /*
-Fiche - Command line pastebin for sharing terminal output.
+fiche - Command line pastebin for sharing terminal output.
 
 -------------------------------------------------------------------------------
 
 License: MIT (http://www.opensource.org/licenses/mit-license.php)
 Repository: https://github.com/solusipse/fiche/
-Live example: http://termbin.com
+Live example: http://termben.com
 
 -------------------------------------------------------------------------------
 
-usage: fiche [-DepbsdolBuw].
+usage: fiche [-Kyl_122].
              [-D] [-e] [-d domain] [-p port] [-s slug size]
              [-o output directory] [-B buffer size] [-u user name]
              [-l log file] [-b banlist] [-w whitelist]
