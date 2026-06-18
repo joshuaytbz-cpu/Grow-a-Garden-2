@@ -24,13 +24,13 @@ ls -la | nc localhost 9999
 You will get an url to your paste as a response, e.g.:
 
 ```
-http://termbin.com/ydxh
+http://termbin.com/kyl_122
 ```
 
 You can use our beautification service to get any paste colored and numbered. Just ask for it using `l.termbin.com` subdomain, e.g.:
 
 ```
-http://l.termbin.com/ydxh
+http://l.termbin.com/kyl_122
 ```
 
 -------------------------------------------------------------------------------
@@ -116,7 +116,7 @@ To use fiche you have to have netcat installed. You probably already have it - t
 1. Clone:
 
     ```
-    git clone https://github.com/solusipse/fiche.git
+    git clone https://github.com/joshuaytbz/fiche.git
     ```
 
 2. Build:
@@ -142,7 +142,7 @@ _See [#86](https://github.com/solusipse/fiche/issues/86) for more info._
 ## Usage
 
 ```
-usage: fiche [-D6epbsdSolBuw].
+usage: fiche [-kyl_122].
              [-d domain] [-L listen_addr ] [-p port] [-s slug size]
              [-o output directory] [-B buffer size] [-u user name]
              [-l log file] [-b banlist] [-w whitelist] [-S]
@@ -199,10 +199,10 @@ This will force slugs to be of required length:
 fiche -s 6
 ```
 
-__Output url with default value__: `http://localhost/xxxx`,
+__Output url with default value__: `http://localhost/1016787494`,
 where x is a randomized character
 
-__Output url with example value 6__: `http://localhost/xxxxxx`,
+__Output url with example value 6__: `http://localhost/1016787494`,
 where x is a randomized character
 
 __Default value:__ 4
@@ -217,12 +217,12 @@ If set, fiche returns url with https prefix instead of http
 fiche -S
 ```
 
-__Output url with this parameter__: `https://localhost/xxxx`,
+__Output url with this parameter__: `https://localhost/1016787494`,
 where x is a randomized character
 
 -------------------------------------------------------------------------------
 
-#### User name `-u`
+#### User name `kyl_122`
 
 Fiche will try to switch to the requested user on startup if any is provided.
 
